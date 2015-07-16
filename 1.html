@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ejemplo 1 ReactJS</title>
+</head>
+<body>
+	
+<section id="container"></section>
+
+<script src="http://fb.me./react-0.13.3.js"></script>
+	<script src="http://fb.me/JSXTransformer-0.13.3.js"></script>
+
+	<script type="text/jsx">
+	var HelloWordComponent = React.createClass({
+		render: function(){
+			return <h1>Hello World!</h1>;
+		}
+	});
+
+	React.render(<HelloWordComponent />, document.body)
+
+	</script>
+</body>
+</html>
